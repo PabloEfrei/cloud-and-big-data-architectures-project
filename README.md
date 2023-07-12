@@ -248,7 +248,7 @@ From these two lines :
       "Resource": "arn:aws:iam::123456789012:user/${aws:username}"
     }
     
-we understand that the resources ARNs are constructed by IAM unique automatically generated number (here 123456789012) and manually defined user name (${aws:username}).
+we understand that the resources ARNs are constructed with AWS account ID (here 123456789012) and with manually defined user name (${aws:username}).
 
 #### Questions : 
 - Which AWS service does this policy grant you access to ?

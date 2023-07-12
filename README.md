@@ -12,8 +12,11 @@ Guillaume Théret - Pablo Sanchez - M1 SE2
 ### IAM quizz 
 
 #### Question 1 
+
 ![iam-quizz-1](assets/iam quizz/1.png "iam-quizz-1")
+
 Answer : 
+
 #### Question 2
 ![iam-quizz-2](assets/iam quizz/2.png "iam-quizz-2")
 Answer : 

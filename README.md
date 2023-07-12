@@ -265,7 +265,7 @@ we understand that the resources ARNs are constructed by IAM unique automaticall
 
 #### Answer : 
 
-This policy grant access to (A COMPLETER) AWS service.
+This policy grant access to IAM AWS service.
 
 The given code doesn't allow to create a IAM user, group, policy, or role. The actions Get* and List* allow the user to use any specific action starting by "Get" or "List", but there are onyl reading actions. 
 

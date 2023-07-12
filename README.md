@@ -117,7 +117,7 @@ From this snippet :
       "s3:PutObject"
     ]
     
-we understand that the authorized actions are to get and to put an object for S3, and to run and terminate an instance for EC2. 
+we understand that the authorized actions are to get and to put an object for S3 (read and add an object), and to run and terminate an instance for EC2 (create and terminate an instance). 
 
 From this snippet : 
 
@@ -162,6 +162,41 @@ From this snippet :
     "aws:RequestedRegion": "us-west-2"
 
 we understand that AWS region is the US West (Oregon) region. 
+
+#### Question : What actions are allowed on the "example-bucket" and its objects based on this policy? What specific prefixes are specified in the condition?
+
+    {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Sid": "AllowIAMUserCreation",
+          "Effect": "Allow",
+          "Action": "iam:CreateUser",
+          "Resource": "arn:aws:iam::123456789012:user/${aws:username}"
+        },
+        {
+          "Sid": "AllowIAMUserDeletion",
+          "Effect": "Allow",
+          "Action": "iam:DeleteUser",
+          "Resource": "arn:aws:iam::123456789012:user/${aws:username}"
+        }
+      ]
+    }
+
+#### Answer : 
+
+From this snippet : 
+
+    "Action": ["s3:GetObject", "s3:PutObject", "s3:ListBucket"],
+
+we understand that the "example-bucket" allows to get and put objects in order to read (get) or add an object, as well as returning a list of buckets owned by the request sender. 
+
+From this snippet : 
+
+    "s3:prefix": ["documents/*", "images/*"]
+
+we understand that AWS region is the US West (Oregon) region. 
+
 
 ## Big Data - Data Visualization with AWS Quicksight
 

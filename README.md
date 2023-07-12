@@ -84,7 +84,7 @@ Guillaume Théret - Pablo Sanchez - M1 SE2
 
 ### Policies evaluation
 
-#### Question : What actions are allowed for EC2 instances and S3 objects based on this policy? What specific resources are included?
+#### Questions : What actions are allowed for EC2 instances and S3 objects based on this policy? What specific resources are included?
 
     {
       "Version": "2012-10-17",
@@ -106,7 +106,7 @@ Guillaume Théret - Pablo Sanchez - M1 SE2
       ]
     }
 
-#### Answer : 
+#### Answers : 
 
 From this snippet : 
 
@@ -128,7 +128,7 @@ From this snippet :
 
 we understand that the following resources are included (A COMPLETER). 
 
-#### Question : Under what condition does this policy allow access to VPC-related information? Which AWS region is specified?
+#### Questions : Under what condition does this policy allow access to VPC-related information? Which AWS region is specified?
 
     {
       "Version": "2012-10-17",
@@ -151,7 +151,7 @@ we understand that the following resources are included (A COMPLETER).
       ]
     }
 
-#### Answer : 
+#### Answers : 
 
 From this snippet : 
 
@@ -163,7 +163,7 @@ From this snippet :
 
 we understand that AWS region is the US West (Oregon) region. 
 
-#### Question : What actions are allowed on the "example-bucket" and its objects based on this policy? What specific prefixes are specified in the condition?
+#### Questions : What actions are allowed on the "example-bucket" and its objects based on this policy? What specific prefixes are specified in the condition?
 
     {
       "Version": "2012-10-17",
@@ -183,7 +183,7 @@ we understand that AWS region is the US West (Oregon) region.
       ]
     }
 
-#### Answer : 
+#### Answers : 
 
 From this snippet : 
 
@@ -197,7 +197,7 @@ From this snippet :
 
 we understand that that the prefixes are documents/* and images/*, meaning that the object are stocked in folders documents and images.
 
-#### Question : What actions are allowed for IAM users based on this policy? How are the resource ARNs constructed?
+#### Questions : What actions are allowed for IAM users based on this policy? How are the resource ARNs constructed?
 
     {
       "Version": "2012-10-17",
@@ -217,7 +217,7 @@ we understand that that the prefixes are documents/* and images/*, meaning that 
       ]
     }
 
-#### Answer : 
+#### Answers : 
 
 From this snippet : 
 
@@ -263,7 +263,7 @@ we understand that the resources ARNs are constructed by IAM unique automaticall
           }
         }
 
-#### Answer : 
+#### Answers : 
 
 This policy grant access to IAM AWS service.
 
@@ -287,6 +287,6 @@ allows the users to use the following specific actions : GetAccountName, GetGrou
 - How would the policy restrict the access granted to you by this additional statement ?
 - If the policy included both the statement on the left and the statement in question 2, could you terminate an m3.xlarge instance that existed in the account ?
 
-#### Answer : 
+#### Answers : 
 
 ## Big Data - Data Visualization with AWS Quicksight

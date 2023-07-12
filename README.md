@@ -13,7 +13,7 @@ Guillaume Théret - Pablo Sanchez - M1 SE2
 
 #### Question 1 
 
-![iam-quizz-1](cloud-and-big-data-architectures-project/assets/iam quizz/1.png)
+![1](assets/iam quizz/1.png)
 
 Answer : 
 

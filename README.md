@@ -195,8 +195,7 @@ From this snippet :
 
     "s3:prefix": ["documents/*", "images/*"]
 
-we understand that AWS region is the US West (Oregon) region. 
-
+we understand that that the prefixes are documents/* and images/*, meaning that the object are stocked in folders documents and images.
 
 ## Big Data - Data Visualization with AWS Quicksight
 

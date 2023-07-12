@@ -27,7 +27,7 @@ Guillaume Théret - Pablo Sanchez - M1 SE2
 
 ![IAM3](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/iam%20quizz/3.png)
 
-### Answer : Option 3 and 4
+### Answer : Options 3 and 4
 
 ### Question 4
 
@@ -72,13 +72,13 @@ Guillaume Théret - Pablo Sanchez - M1 SE2
 
 ![NETWORK3](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/network%20quizz/3.png)
 
-### Answer : 
+### Answer : Options 3, 5 and 6
 
 ### Question 4
 
 ![NETWORK4](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/network%20quizz/4.png)
 
-### Answer : 
+### Answer : Option 4
 
 ## IAM
 

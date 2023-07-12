@@ -82,5 +82,50 @@ Guillaume Théret - Pablo Sanchez - M1 SE2
 
 ## IAM
 
-## AWS Quicksight
+### Policies evaluation
+
+#### Question : What actions are allowed for EC2 instances and S3 objects based on this policy? What specific resources are included?
+
+    {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Sid": "AllowEC2AndS3",
+          "Effect": "Allow",
+          "Action": [
+            "ec2:RunInstances",
+            "ec2:TerminateInstances",
+            "s3:GetObject",
+            "s3:PutObject"
+          ],
+          "Resource": [
+            "arn:aws:ec2:us-east-1:123456789012:instance/*",
+            "arn:aws:s3:::example-bucket/*"
+          ]
+        }
+      ]
+    }
+
+#### Answer : 
+
+From this snippet : 
+
+    "Action": [
+      "ec2:RunInstances",
+      "ec2:TerminateInstances",
+      "s3:GetObject",
+      "s3:PutObject"
+    ]
+    
+we understand that the authorized actions are to get and to put an object for S3, and to run and terminate an instance for EC2. 
+From this snippet : 
+
+    "Resource": [
+      "arn:aws:ec2:us-east-1:123456789012:instance/*",
+      "arn:aws:s3:::example-bucket/*"
+    ]
+
+we understand that the following resources are included (A COMPLETER). 
+
+## Big Data - Data Visualization with AWS Quicksight
 

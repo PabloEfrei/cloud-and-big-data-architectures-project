@@ -126,7 +126,7 @@ From this snippet :
       "arn:aws:s3:::example-bucket/*"
     ]
 
-we understand that the policy gives access to all EC2 instances from account 123456789012 in region us-east-1, in S3 "example-bucket".
+we understand that the policy gives access to all EC2 instances from account 123456789012 in region us-east-1, and in S3 "example-bucket".
 
 #### Questions : Under what condition does this policy allow access to VPC-related information? Which AWS region is specified?
 
@@ -162,22 +162,24 @@ From this snippet :
 
 we understand that AWS region is the US West (Oregon) region, and that this policy allows access to VPC-related information only for requests in the us-west-2 region. 
 
-#### Questions : What actions are allowed on the "example-bucket" and its objects based on this policy? What specific prefixes are specified in the condition?
+#### Questions : Under what condition does this policy allow access to VPC-related information? Which AWS region is specified?
 
     {
       "Version": "2012-10-17",
       "Statement": [
         {
-          "Sid": "AllowIAMUserCreation",
+          "Sid": "AllowS3ReadWrite",
           "Effect": "Allow",
-          "Action": "iam:CreateUser",
-          "Resource": "arn:aws:iam::123456789012:user/${aws:username}"
-        },
-        {
-          "Sid": "AllowIAMUserDeletion",
-          "Effect": "Allow",
-          "Action": "iam:DeleteUser",
-          "Resource": "arn:aws:iam::123456789012:user/${aws:username}"
+          "Action": ["s3:GetObject", "s3:PutObject", "s3:ListBucket"],
+          "Resource": [
+            "arn:aws:s3:::example-bucket",
+            "arn:aws:s3:::example-bucket/*"
+          ],
+          "Condition": {
+            "StringLike": {
+              "s3:prefix": ["documents/*", "images/*"]
+            }
+          }
         }
       ]
     }
@@ -194,7 +196,7 @@ From this snippet :
 
     "s3:prefix": ["documents/*", "images/*"]
 
-we understand that that the prefixes are documents/* and images/*, meaning that the object are stocked in folders documents and images.
+we understand that the 3 given S3 actions are restricted to folders with prefixes documents/* and images/* from S3 bucket example-bucket .
 
 #### Questions : What actions are allowed for IAM users based on this policy? How are the resource ARNs constructed?
 

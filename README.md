@@ -197,5 +197,58 @@ From this snippet :
 
 we understand that that the prefixes are documents/* and images/*, meaning that the object are stocked in folders documents and images.
 
+#### Question : What actions are allowed for IAM users based on this policy? How are the resource ARNs constructed?
+
+    {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Sid": "AllowIAMUserCreation",
+          "Effect": "Allow",
+          "Action": "iam:CreateUser",
+          "Resource": "arn:aws:iam::123456789012:user/${aws:username}"
+        },
+        {
+          "Sid": "AllowIAMUserDeletion",
+          "Effect": "Allow",
+          "Action": "iam:DeleteUser",
+          "Resource": "arn:aws:iam::123456789012:user/${aws:username}"
+        }
+      ]
+    }
+
+#### Answer : 
+
+From this snippet : 
+
+    {
+      "Sid": "AllowIAMUserCreation",
+      "Effect": "Allow",
+      "Action": "iam:CreateUser",
+      ...
+    },
+    {
+      "Sid": "AllowIAMUserDeletion",
+      "Effect": "Allow",
+      "Action": "iam:DeleteUser",
+      ...
+    }
+    
+we understand that it is possible to create and delete IAM users.
+
+From these two lines : 
+
+    {
+      ...
+      "Resource": "arn:aws:iam::123456789012:user/${aws:username}"
+    },
+    {
+      ...
+      "Resource": "arn:aws:iam::123456789012:user/${aws:username}"
+    }
+    
+we understand that the resources ARNs are constructed by IAM unique automatically generated number (here 123456789012) and manually defined user name (${aws:username}) .
+
+
 ## Big Data - Data Visualization with AWS Quicksight
 

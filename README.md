@@ -15,7 +15,7 @@ Guillaume Théret - Pablo Sanchez - M1 SE2
 
 ![IAM1](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/iam%20quizz/1.png)
 
-##Answer : 
+## Answer : 
 
 #### Question 2
 ![iam-quizz-2](assets/iam quizz/2.png "iam-quizz-2")

@@ -247,8 +247,37 @@ From these two lines :
       "Resource": "arn:aws:iam::123456789012:user/${aws:username}"
     }
     
-we understand that the resources ARNs are constructed by IAM unique automatically generated number (here 123456789012) and manually defined user name (${aws:username}) .
+we understand that the resources ARNs are constructed by IAM unique automatically generated number (here 123456789012) and manually defined user name (${aws:username}).
 
+#### Questions : 
+- Which AWS service does this policy grant you access to ?
+- Does it allow you to create an IAM user, group, policy, or role ?
+- Go to https://docs.aws.amazon.com/IAM/latest/UserGuide/ and in the left navigation expand Reference > Policy Reference > Actions, Resources, and Condition Keys. Choose Identity And Access Management. Scroll to the Actions Defined by Identity And Access Management list. Name at least three specific actions that the iam:Get* action allows.
+
+        {
+          "Version": "2012-10-17",
+          "Statement": {
+            "Effect": "Allow",
+            "Action": ["iam:Get*", "iam:List*"],
+            "Resource": "*"
+          }
+        }
+
+#### Answer : 
+
+
+#### Questions : 
+- What actions does the policy allow?
+- Say that the policy included an additional statement object, like this example :
+
+        {
+          "Effect": "Allow",
+          "Action": "ec2:*"
+        }
+
+- How would the policy restrict the access granted to you by this additional statement ?
+- If the policy included both the statement on the left and the statement in question 2, could you terminate an m3.xlarge instance that existed in the account ?
+
+#### Answer : 
 
 ## Big Data - Data Visualization with AWS Quicksight
-

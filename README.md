@@ -155,13 +155,12 @@ we understand that the policy gives access to all EC2 instances from account 123
 
 From this snippet : 
 
-(A COMPLETER)
+    "Condition": {
+            "StringEquals": {
+              "aws:RequestedRegion": "us-west-2"
+            }
 
-From this snippet : 
-
-    "aws:RequestedRegion": "us-west-2"
-
-we understand that AWS region is the US West (Oregon) region. 
+we understand that AWS region is the US West (Oregon) region, and that this policy allows access to VPC-related information only for requests in the us-west-2 region. 
 
 #### Questions : What actions are allowed on the "example-bucket" and its objects based on this policy? What specific prefixes are specified in the condition?
 

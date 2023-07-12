@@ -126,7 +126,7 @@ From this snippet :
       "arn:aws:s3:::example-bucket/*"
     ]
 
-we understand that the following resources are included (A COMPLETER). 
+we understand that the policy gives access to all EC2 instances from account 123456789012, in S3 "example-bucket".
 
 #### Questions : Under what condition does this policy allow access to VPC-related information? Which AWS region is specified?
 
@@ -267,13 +267,13 @@ we understand that the resources ARNs are constructed by IAM unique automaticall
 
 This policy grant access to IAM AWS service.
 
-The given code doesn't allow to create a IAM user, group, policy, or role. The actions Get* and List* allow the user to use any specific action starting by "Get" or "List", but there are onyl reading actions. 
+The given code doesn't allow to create a IAM user, group, policy, or role. The actions Get* and List* allow the user to use any specific action starting by "Get" or "List", but they are only reading actions. 
 
 The snippet : 
 
     ["iam:Get*",
 
-allows the users to use the following specific actions : GetAccountName, GetGroupPolicy, or GetLoginProfile (or any other action starting by "Get").
+allows grant access to the following specific actions : GetAccountName, GetGroupPolicy, or GetLoginProfile (or any other action starting by "Get").
 
 #### Questions : 
 - What actions does the policy allow?
@@ -309,7 +309,7 @@ From this snippet :
 
     "Action": ["ec2:RunInstances", "ec2:StartInstances"],
 
-we understand that this policy allows the user to run an EC2 instance (create + start), and start an already existing but stopped EC2 instance.
+we understand that this policy allows to run an EC2 instance (create + start), and start an already existing but stopped EC2 instance.
 
 (A COMPLETER)
 (A COMPLETER)

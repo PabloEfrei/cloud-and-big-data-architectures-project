@@ -308,9 +308,20 @@ From this snippet :
 
     "Action": ["ec2:RunInstances", "ec2:StartInstances"],
 
-we understand that this policy allows to run an EC2 instance (create + start), and start an already existing but stopped EC2 instance.
+we understand that this policy allows users to run and start EC2 instances of the specified instance types t2.micro and t2.small.
 
-(A COMPLETER)
-(A COMPLETER)
+When this is added : 
+
+    {
+      "Effect": "Allow",
+      "Action": "ec2:*"
+    }
+
+the goal is to grants unrestricted access to perform any EC2-related action. But the "Effect" : "Deny" is more restrictive than the "Effect" : "Allow", thus the additional statement allowing all "ec2:*" actions would be overridden by the first statement. Hence the policy would still restrict the actions to only "ec2:RunInstances" and "ec2:StartInstances" on the specified instance types, and all other EC2 actions would be denied.
+
+It is not possible to determine the specific actions allowed or denied for the "m3.xlarge" instance type, because the "ec2:*" action is allowed, implying unrestricted access to perform any EC2-related action. 
+But the first statement in the original policy denies the "ec2:RunInstances" and "ec2:StartInstances" actions for the "t2.micro" and "t2.small" instance types.
+The policy does not explicitly mention the "m3.xlarge" instance type or the "ec2:TerminateInstances" action, we cannot determine whether terminating an "m3.xlarge" instance is allowed or denied.
+Therefore the policy would need to include a statement that either allows or denies the "ec2:TerminateInstances" action and specifies the appropriate conditions or resources. Without such information, it is not possible to determine if terminating an "m3.xlarge" instance is allowed or not.
 
 ## Big Data - Data Visualization with AWS Quicksight

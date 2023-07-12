@@ -15,43 +15,43 @@ Guillaume Théret - Pablo Sanchez - M1 SE2
 
 ![IAM1](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/iam%20quizz/1.png)
 
-### Answer : 
+### Answer : Option 3
 
 ### Question 2
 
 ![IAM2](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/iam%20quizz/2.png)
 
-### Answer : 
+### Answer : Option 1
 
 ### Question 3
 
 ![IAM3](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/iam%20quizz/3.png)
 
-### Answer : 
+### Answer : Option 3 and 4
 
 ### Question 4
 
 ![IAM4](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/iam%20quizz/4.png)
 
-### Answer : 
+### Answer : Option 4
 
 ### Question 5
 
 ![IAM5](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/iam%20quizz/5.png)
 
-### Answer : 
+### Answer : Option 2
 
 ### Question 6
 
 ![IAM6](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/iam%20quizz/6.png)
 
-### Answer :
+### Answer : Option 3
 
 ### Question 7
 
 ![IAM7](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/iam%20quizz/7.png)
 
-### Answer :
+### Answer : Option 1
 
 
 ### Network quizz 

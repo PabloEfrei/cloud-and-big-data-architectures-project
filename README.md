@@ -128,5 +128,40 @@ From this snippet :
 
 we understand that the following resources are included (A COMPLETER). 
 
+#### Question : Under what condition does this policy allow access to VPC-related information? Which AWS region is specified?
+
+    {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Sid": "AllowVPCAccess",
+          "Effect": "Allow",
+          "Action": [
+            "ec2:DescribeVpcs",
+            "ec2:DescribeSubnets",
+            "ec2:DescribeSecurityGroups"
+          ],
+          "Resource": "*",
+          "Condition": {
+            "StringEquals": {
+              "aws:RequestedRegion": "us-west-2"
+            }
+          }
+        }
+      ]
+    }
+
+#### Answer : 
+
+From this snippet : 
+
+(A COMPLETER)
+
+From this snippet : 
+
+    "aws:RequestedRegion": "us-west-2"
+
+we understand that AWS region is the US West (Oregon) region. 
+
 ## Big Data - Data Visualization with AWS Quicksight
 

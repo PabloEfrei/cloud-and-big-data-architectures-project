@@ -265,6 +265,11 @@ we understand that the resources ARNs are constructed by IAM unique automaticall
 
 #### Answer : 
 
+The snippet : 
+
+    ["iam:Get*",
+
+allows the users to use the following specific actions : GetAccountName, GetGroupPolicy, or GetLoginProfile (or any other action starting by "Get").
 
 #### Questions : 
 - What actions does the policy allow?

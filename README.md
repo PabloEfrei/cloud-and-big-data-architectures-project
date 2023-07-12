@@ -287,6 +287,31 @@ allows the users to use the following specific actions : GetAccountName, GetGrou
 - How would the policy restrict the access granted to you by this additional statement ?
 - If the policy included both the statement on the left and the statement in question 2, could you terminate an m3.xlarge instance that existed in the account ?
 
+        {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Condition": {
+                "StringEquals": {
+                  "ec2:InstanceType": ["t2.micro", "t2.small"]
+                }
+              },
+              "Resource": "arn:aws:ec2:*:*:instance/*",
+              "Action": ["ec2:RunInstances", "ec2:StartInstances"],
+              "Effect": "Deny"
+            }
+          ]
+        }
+
 #### Answers : 
+
+From this snippet : 
+
+    "Action": ["ec2:RunInstances", "ec2:StartInstances"],
+
+we understand that this policy allows the user to run an EC2 instance (create + start), and start an already existing but stopped EC2 instance.
+
+(A COMPLETER)
+(A COMPLETER)
 
 ## Big Data - Data Visualization with AWS Quicksight

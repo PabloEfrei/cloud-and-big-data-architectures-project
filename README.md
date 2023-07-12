@@ -118,6 +118,7 @@ From this snippet :
     ]
     
 we understand that the authorized actions are to get and to put an object for S3, and to run and terminate an instance for EC2. 
+
 From this snippet : 
 
     "Resource": [

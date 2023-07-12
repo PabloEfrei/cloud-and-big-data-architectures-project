@@ -126,7 +126,7 @@ From this snippet :
       "arn:aws:s3:::example-bucket/*"
     ]
 
-we understand that the policy gives access to all EC2 instances from account 123456789012, in S3 "example-bucket".
+we understand that the policy gives access to all EC2 instances from account 123456789012 in region us-east-1, in S3 "example-bucket".
 
 #### Questions : Under what condition does this policy allow access to VPC-related information? Which AWS region is specified?
 

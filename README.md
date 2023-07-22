@@ -48,7 +48,7 @@ Link public subnet to route :
 
 #### Secure Hosting of MySQL database - private only
 
-![db](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/project_screenshots/Step1-db.jpg)
+![db](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/project_screenshots/Step1_db.jpg)
 
 #### EC2 Instance Connect to connect to the database from local machine
 

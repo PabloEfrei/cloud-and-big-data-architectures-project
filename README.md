@@ -336,32 +336,32 @@ Therefore the policy would need to include a statement that either allows or den
 
 ### How to build the Sum of Revenue by Admit Date
 
-![quicksight1](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/total_dashboard.jpg)
+![quicksight1](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/build_sum_of_revenue_by_admit_date.jpg)
 
 ### How to build the Sum of Profit by Hospital
 
-![quicksight2](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/total_dashboard.jpg)
+![quicksight2](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/build_sum_of_profit_by_hospital.jpg)
 
 ### How to build the YoY Revenue (2018 vs 2017)
 
-![quicksight3](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/total_dashboard.jpg)
+![quicksight3](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/build_yoy_revenue.jpg)
 
 ### How to build the YoY Profit (2018 vs 2017)
 
-![quicksight4](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/total_dashboard.jpg)
+![quicksight4](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/build_yoy_profit.jpg)
 
 ### How to build the Sum of Cost by Category and Admit Date
 
-![quicksight5](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/total_dashboard.jpg)
+![quicksight5](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/build_sum_of_cost_by_category_and_admit_date.jpg)
 
 ### How to build the Sum of Discount and Sum of Profit by Admin Date and Category 
 
-![quicksight6](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/total_dashboard.jpg)
+![quicksight6](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/build_sum_of_discoun_and_sum_of_profit_by_admit_date_and_category.jpg)
 
 ### How to build the Period over period
 
-![quicksight7](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/total_dashboard.jpg)
+![quicksight7](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/build_period_over_period.jpg)
 
 ### How to build the Top 3 Category
 
-![quicksight8](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/total_dashboard.jpg)
+![quicksight8](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/build_top_3_categories.jpg)

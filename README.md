@@ -332,6 +332,6 @@ Therefore the policy would need to include a statement that either allows or den
 
 ### Complete Dashboard
 
-![totaldashboard](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/iam%20quizz/1.png)
+![totaldashboard](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/total_dashboard.jpg)
 
 ### How to build the 

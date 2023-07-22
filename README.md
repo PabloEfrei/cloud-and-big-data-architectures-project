@@ -332,6 +332,8 @@ Therefore the policy would need to include a statement that either allows or den
 
 ### Complete Dashboard
 
+[Click here][dashboardPDF] to download pdf version.
+
 ![totaldashboard](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/total_dashboard.jpg)
 
 ### How to build the Sum of Revenue by Admit Date
@@ -365,3 +367,6 @@ Therefore the policy would need to include a statement that either allows or den
 ### How to build the Top 3 Category
 
 ![quicksight8](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/build_top_3_categories.jpg)
+
+
+[dashboardPDF]: <my-app/src/main/java/com/mycompany/app/App.java>

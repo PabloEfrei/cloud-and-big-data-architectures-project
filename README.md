@@ -18,15 +18,27 @@ ___
 
 Create a VPC :
 
+![vpc](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/project screenshots/Step 1 - vpc.jpg)
+
 Create 2 subnets (private,public) :
+
+![subnet](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/project screenshots/Step 2 - subnet.jpg)
 
 Create internet gateway :
 
+![ig](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/project screenshots/Step 3 - internet gateway.jpg)
+
 Create route :
+
+![table route](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/project screenshots/Step 4- table route.jpg)
 
 Create security group (relevant for EC2 instance) :
 
+![secgroup](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/project screenshots/Step 5- security group.jpg)
+
 Link public subnet to route :
+
+![assoc](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/project screenshots/Step 6 - association subnet and route.jpg)
 
 #### Secure Hosting of MySQL database - private only
 

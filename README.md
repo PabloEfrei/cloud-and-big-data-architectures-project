@@ -14,6 +14,20 @@ ___
 (screenshot)
 (text to explain)
 
+####  Our own defined network infrastructure
+
+Create a VPC :
+
+Create 2 subnets (private,public) :
+
+Create internet gateway :
+
+Create route :
+
+Create security group (relevant for EC2 instance) :
+
+Link public subnet to route :
+
 #### Secure Hosting of MySQL database - private only
 
 (screenshot)
@@ -50,11 +64,6 @@ ___
 (text to explain)
 
 ####  Use of Cloud9 service to avoid some issues
-
-(screenshot)
-(text to explain)
-
-####  Our own defined network infrastructure
 
 (screenshot)
 (text to explain)

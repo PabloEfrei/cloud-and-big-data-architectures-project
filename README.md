@@ -59,7 +59,7 @@ ___
 (screenshot)
 (text to explain)
 
-####  Use of specified enppoints
+####  Use of specified endpoints
 
 (screenshot)
 (text to explain)

@@ -11,7 +11,7 @@ ___
 
 #### Architecture diagram for Infrastructure solution 
 
-(screenshot)
+![diagram](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/project_screenshots/Step1_vpc.jpg)
 
 In this diagram:
 

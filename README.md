@@ -6,6 +6,29 @@ Guillaume Théret - Pablo Sanchez - M1 SE2
 
 ## Task 1 - App deployment
 
+### Solution Requirements 
+
+#### Architecture diagram for Infrastructure solution 
+
+(screenshot)
+(text to explain)
+
+#### Secure Hosting of MySQL database - private only
+
+(screenshot)
+(text to explain)
+
+#### EC2 Instance Connect to connect to the database from local machine
+
+(screenshot)
+(text to explain)
+
+#### Secure Hosting of MySQL database - private only
+
+(screenshot)
+(text to explain)
+___
+### Project deliverables
 
 ## Task 2 - Quizz
 

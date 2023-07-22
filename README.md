@@ -332,10 +332,7 @@ Therefore the policy would need to include a statement that either allows or den
 
 ### Complete Dashboard
 
-[Click here][dashboardPDF] to download pdf version.
-
-<a href="assets/quicksight/dashboard.pdf" download>Click here</a> to download pdf version.
-
+[Click here][dashboardPDF] to see pdf version.
 
 ![totaldashboard](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/total_dashboard.jpg)
 

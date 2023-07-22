@@ -88,11 +88,11 @@ Link public subnet to route :
 
 ####  Use of specified endpoints
 
-![param](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/iam%20quizz/1.png)
-![param1](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/iam%20quizz/1.png)
-![param2](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/iam%20quizz/1.png)
-![param3](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/iam%20quizz/1.png)
-![param4](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/iam%20quizz/1.png)
+![param](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/project_screenshots/parametres.jpg)
+![param1](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/project_screenshots/parametres_db.jpg)
+![param2](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/project_screenshots/parametres_endpoint.jpg)
+![param3](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/project_screenshots/parametres_password.jpg)
+![param4](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/project_screenshots/parametres_username.jpg)
 
 ### Assets
 

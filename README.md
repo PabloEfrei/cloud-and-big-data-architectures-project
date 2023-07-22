@@ -334,4 +334,34 @@ Therefore the policy would need to include a statement that either allows or den
 
 ![totaldashboard](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/total_dashboard.jpg)
 
-### How to build the 
+### How to build the Sum of Revenue by Admit Date
+
+![quicksight1](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/total_dashboard.jpg)
+
+### How to build the Sum of Profit by Hospital
+
+![quicksight2](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/total_dashboard.jpg)
+
+### How to build the YoY Revenue (2018 vs 2017)
+
+![quicksight3](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/total_dashboard.jpg)
+
+### How to build the YoY Profit (2018 vs 2017)
+
+![quicksight4](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/total_dashboard.jpg)
+
+### How to build the Sum of Cost by Category and Admit Date
+
+![quicksight5](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/total_dashboard.jpg)
+
+### How to build the Sum of Discount and Sum of Profit by Admin Date and Category 
+
+![quicksight6](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/total_dashboard.jpg)
+
+### How to build the Period over period
+
+![quicksight7](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/total_dashboard.jpg)
+
+### How to build the Top 3 Category
+
+![quicksight8](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/total_dashboard.jpg)

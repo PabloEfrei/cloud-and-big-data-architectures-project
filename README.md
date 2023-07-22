@@ -18,7 +18,7 @@ ___
 
 Create a VPC :
 
-![vpc](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/project_screenshots/Step 1 - vpc.jpg)
+![vpc](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/project_screenshots/Step_1_-_vpc.jpg)
 
 Create 2 subnets (private,public) :
 

@@ -329,3 +329,9 @@ The policy does not explicitly mention the "m3.xlarge" instance type or the "ec2
 Therefore the policy would need to include a statement that either allows or denies the "ec2:TerminateInstances" action and specifies the appropriate conditions or resources. Without such information, it is not possible to determine if terminating an "m3.xlarge" instance is allowed or not.
 
 ## Big Data - Data Visualization with AWS Quicksight
+
+### Complete Dashboard
+
+![totaldashboard](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/iam%20quizz/1.png)
+
+### How to build the 

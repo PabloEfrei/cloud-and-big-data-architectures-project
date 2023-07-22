@@ -12,7 +12,13 @@ ___
 #### Architecture diagram for Infrastructure solution 
 
 (screenshot)
-(text to explain)
+
+In this diagram:
+
+- The VPC contains both a public subnet and a private subnet.
+- The EC2 instance is placed in the public subnet to allow public access to the website.
+- The RDS (MySQL) database instance is placed in the private subnet to prevent public access and enhance security.
+- The Internet Gateway allows communication between the VPC and the Internet.
 
 ####  Our own defined network infrastructure
 

@@ -369,4 +369,4 @@ Therefore the policy would need to include a statement that either allows or den
 ![quicksight8](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/quicksight/build_top_3_categories.jpg)
 
 
-[dashboardPDF]: <my-app/src/main/java/com/mycompany/app/App.java>
+[dashboardPDF]: <assets/quicksight/dashboard.pdf>

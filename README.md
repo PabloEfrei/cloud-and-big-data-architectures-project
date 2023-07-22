@@ -4,10 +4,10 @@
 
 Guillaume Théret - Pablo Sanchez - M1 SE2
 
-## Task 1 (App deployment)
+## Task 1 - App deployment
 
 
-## Quizz
+## Task 2 - Quizz
 
 ### IAM quizz 
 
@@ -80,7 +80,7 @@ Guillaume Théret - Pablo Sanchez - M1 SE2
 
 #### Answer : Option 4
 
-## IAM
+## Task 3 - IAM
 
 ### Policies evaluation
 
@@ -328,7 +328,7 @@ The policy does not explicitly mention the "m3.xlarge" instance type or the "ec2
 
 Therefore the policy would need to include a statement that either allows or denies the "ec2:TerminateInstances" action and specifies the appropriate conditions or resources. Without such information, it is not possible to determine if terminating an "m3.xlarge" instance is allowed or not.
 
-## Big Data - Data Visualization with AWS Quicksight
+## Task 4 - Big Data - Data Visualization with AWS Quicksight
 
 ### Complete Dashboard
 

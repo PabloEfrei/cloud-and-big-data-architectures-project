@@ -24,12 +24,50 @@ ___
 (screenshot)
 (text to explain)
 
-#### Secure Hosting of MySQL database - private only
+#### Anonymous access to web users
 
 (screenshot)
 (text to explain)
 
-### Project deliverables
+#### Run the website on a t2.micro EC2 instance, provide Secure Shell (SSH) access to administrators using EC2 Instance Connect (No Key Pair)
+
+(screenshot)
+(text to explain)
+
+#### Adopt the least privilege for IAM permissions needed
+
+(screenshot)
+(text to explain)
+
+#### Store database connection information in AWS Systems Manager Parameter Store
+
+(screenshot)
+(text to explain)
+
+#### Entiere deployment need to be inside your own custom network stack -  RDS inside private subnet and EC2 inside public one - Only EC2 instance can access database using security group inbound rules
+
+(screenshot)
+(text to explain)
+
+####  Use of Cloud9 service to avoid some issues
+
+(screenshot)
+(text to explain)
+
+####  Our own defined network infrastructure
+
+(screenshot)
+(text to explain)
+
+####  Use of specified enppoints
+
+(screenshot)
+(text to explain)
+
+### Assets
+
+A SQL dump file that contains sample data : (mettre ici)
+A .zip file that contains the PHP and image files for the Example Social Research Organization website : (mettre ici)
 
 ___
 ## Task 2 - Quizz

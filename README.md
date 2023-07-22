@@ -18,27 +18,27 @@ ___
 
 Create a VPC :
 
-![vpc](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/project_screenshots/Step_1_-_vpc.jpg)
+![vpc](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/project_screenshots/Step1_vpc.jpg)
 
 Create 2 subnets (private,public) :
 
-![subnet](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/project screenshots/Step 2 - subnet.jpg)
+![subnet](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/project_screenshots/Step2_subnet.jpg)
 
 Create internet gateway :
 
-![ig](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/project screenshots/Step 3 - internet gateway.jpg)
+![ig](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/project_screenshots/Step3_internetgateway.jpg)
 
 Create route :
 
-![table route](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/project screenshots/Step 4- table route.jpg)
+![table route](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/project_screenshots/Step4_tableroute.jpg)
 
 Create security group (relevant for EC2 instance) :
 
-![secgroup](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/project screenshots/Step 5- security group.jpg)
+![secgroup](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/project_screenshots/Step5_securitygroup.jpg)
 
 Link public subnet to route :
 
-![assoc](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/project screenshots/Step 6 - association subnet and route.jpg)
+![assoc](https://github.com/PabloEfrei/cloud-and-big-data-architectures-project/blob/main/assets/project_screenshots/Step6_associationsubnetandroute.jpg)
 
 #### Secure Hosting of MySQL database - private only
 
